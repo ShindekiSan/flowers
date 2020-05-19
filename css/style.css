@@ -1,0 +1,402 @@
+@font-face {
+    font-family: "Cormorant SC";
+    src: url("../fonts/CormorantSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-ThinItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto-Light.ttf")
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("../fonts/Roboto-Thin.ttf")
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B2C0E4;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.sections {
+    display: flex;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    padding-top:15px;
+    justify-content: space-between;
+}
+
+.section {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding-right: 40px;
+    font-size:13px;
+    text-shadow: black 0px 0px 10px;
+}
+
+.number {
+    padding-left: 40px;
+    text-shadow: none;
+}
+.main_page {
+    display: flex;
+}
+
+.info {
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.info_head {
+    font-size: 45px;
+    width: 800px;
+    font-family: Cormorant SC;
+    text-transform: uppercase;
+}
+
+.info_text {
+    text-align: center;
+    font-size: 20px;
+    width: 490px;
+    font-family: Roboto;
+    padding-left:175px;
+}
+
+.catalogs {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-family: Roboto Light;
+}
+.catalog_name {
+    text-decoration: none;
+}
+
+.catalog {
+    height: 250px;
+    width: 227px;
+}
+
+.main_photo {
+    width: 678px;
+    height: 910px;
+}
+
+.footer {
+    background-color: #555E75;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.footer_logo {
+    padding-right:20px;
+    height: 70px;
+    padding-top: 5px;
+}
+
+.footer_sections {
+    display: flex;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    padding-top:15px;
+    justify-content: space-between;
+}
+
+.footer_section {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding-right: 40px;
+    font-size:13px;
+    text-shadow: black 0px 0px 10px;
+}
+
+.address {
+    letter-spacing: 0px;
+    text-shadow: none;
+    font-family: Roboto Thin;
+}
+
+.rights {
+    width: 120px;
+    text-shadow: none;
+    font-family: Roboto light;
+    text-transform: none;
+    letter-spacing: 5px;
+    padding-top: 15px;
+}
+
+
+.catalog_head {
+    text-align: center;
+    font-family: Cormorant SC;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-size: 38px;
+    letter-spacing: 13px;
+    padding-top: 40px;
+}
+
+.catalog_head_text {
+    text-align: center;
+    font-family: Roboto Light;
+    margin: 0px;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.flower_catalog {
+    margin-top: 60px;
+}
+
+.block_of_3_elements {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:45px;
+}
+
+.element_text {
+    width: 227px;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.element_description {
+    width: 185px;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.element_price {
+    color:red;
+    font-family: Roboto Light;
+    font-size: 18px;
+}
+
+.element_photo {
+    width: 227px;
+    height: 250px;
+}
+
+.buy {
+    border-radius: 29px;
+    border: none;
+    color: white;
+    width: 166px;
+    height: 40px;
+    font-family: Roboto Light;
+    position: relative;
+    left: 45%;
+    font-size: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to right, rgb(255, 70, 70), rgb(133, 49, 49));
+    margin-bottom: 30px;
+}
+
+.bears_catalog {
+    margin-top: 40px;
+}
+
+.table_flowers_catalog {
+    margin-top:80px;
+}
+
+.contacts_form {
+    width:808px;
+    height: 94px;
+    outline: 1px solid black;
+    padding: 20px;
+    position: relative;
+    left: 27%;
+    margin-top: 100px;
+    width: 700px;
+    height: 500px;
+    box-shadow: 10px 10px 0px grey;
+}
+
+.contacts_text {
+    font-family: Roboto Regular;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 400px;
+    padding-left: 140px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.form_field {
+    border: 1px solid grey;
+    border-radius: 54px;
+    width: 458px;
+    height: 67px;
+    border-width: 1px;
+    font-family: Roboto light;
+    letter-spacing: 5px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.make_a_call {
+    background-color: red;
+    width: 262px;
+    height: 58px;
+    position: relative;
+    left: 30%;
+    font-family: Roboto Light;
+    border-radius: 29px;
+    border: none;
+    color: white;
+    margin-top: 40px;
+}
+
+.done_frame {
+    position: relative;
+    left: 33%;
+    width: 475px;
+    height: 300px;
+    outline: 1px solid grey;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.done_frame_image {
+    width: 132px;
+    height: 139px;
+}
+
+.done_frame_text {
+    height: 42px;
+    width: 319px;
+    padding-left: 80px;
+}
+
+.done_frame_info_sentence {
+    font-family: Roboto Regular;
+    font-size: 22px;
+}
+
+.done_frame_thanks_sentence {
+    font-family: Roboto Thin;
+    font-size: 25px;
+    margin: 0;
+    width: 320px;
+    padding-left: 80px;
+}
+
+.special_offers {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    width: 319px;
+    height: 400px;
+    box-shadow: 10px 10px 10px grey; 
+}
+
+.offer_image {
+    width: 319px;
+    height: 276px;
+}
+
+.offer_name {
+    font-family: Roboto Bold;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.offer_info {
+    font-family: Roboto Light;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.offer_learn_more {
+    background-color: red;
+    color: white;
+    font-family: Roboto Light;
+    width: 95px;
+    height: 26px;
+    font-size: 10px;
+    border: none;
+    margin-left: 20px;
+}
+
+.offer_price {
+    font-family: Roboto Light;
+    color: red;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.discount {
+    width: 340px;
+}
+
+.discount_image {
+    width: 340px;
+}
+
+.discount_size {
+    text-transform: uppercase;
+}
+
+.discount_info {
+    font-size: 11px;
+}
+
+.flower_discount_info {
+    font-size: 11px;
+    width: 220px;
+    margin: 0;
+}
+
+
+
